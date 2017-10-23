@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "UMD",
+        "target": "es5",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "sourceMap": true,
+        "jsx": "react",
+        "declaration": true,
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "declarationDir": "./dist/",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noResolve": false,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts",
+        "**/*.test.tsx"
+    ]
+}
